@@ -1,0 +1,15 @@
+[COMPLETED]
+
+[PROGRESS]
+
+[PLAYING]
+
+[NOT PLAYED]
+.git
+LICENSE
+README.md
+_build
+lib
+mix.exs
+test
+.elixir_ls
