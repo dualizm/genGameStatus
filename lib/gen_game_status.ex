@@ -56,8 +56,8 @@ defmodule GenGameStatus do
     answer =
       "Rewrite an existing file? [y/n]\n"
       |> IO.gets()
-      |> String.downcase()
       |> String.trim()
+      |> String.downcase()
 
     case answer do
       "y" -> callback.()
